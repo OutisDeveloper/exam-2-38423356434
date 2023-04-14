@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+header {
+  background-color: red;
+  height: 500px;
+  .container-xxl {
+    height: 100px;
+    background-color: blue;
+  }
+}
