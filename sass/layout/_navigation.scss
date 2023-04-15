@@ -1,2 +1,6 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
+.navbar {
+  height: 200px;
+  background-color: red;
+}
