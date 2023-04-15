@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.containerCustom {
+  max-width: 1332px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+header .for-bg {
+  background-color: #BB2339;
+}
+header .for-bg nav {
+  background-color: #BB2339 !important;
+}
+header .for-bg nav .container-fluid {
+  background-color: #BB2339;
+}
+
+/*# sourceMappingURL=main.css.map */

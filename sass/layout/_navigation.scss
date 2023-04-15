@@ -1,5 +1,16 @@
 @use "../abstracts/variables";
 @use "../abstracts/mixins";
-body {
-  color: red;
+// colors
+$bgcolor-navbar: #BB2339;
+
+header {
+  .for-bg {
+    background-color: $bgcolor-navbar;
+    nav {
+      background-color: $bgcolor-navbar !important;  
+      .container-fluid {
+        background-color: $bgcolor-navbar;
+      }
+    }
+  }
 }
