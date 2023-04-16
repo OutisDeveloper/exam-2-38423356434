@@ -277,9 +277,18 @@ li {
 }
 
 #home__menu {
+  background-color: #f8f8f8;
+}
+#home__menu .container-xxl {
+  position: relative;
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #f8f8f8;
+}
+#home__menu #sec-2-last {
+  width: 93px;
+  position: absolute;
+  right: 50px;
+  bottom: -46.5px;
 }
 #home__menu .carousel__caption h3 {
   color: #bb2339;
@@ -287,21 +296,77 @@ li {
   font-size: 48px;
   margin-bottom: 40px;
 }
+#home__menu .carousel__contents {
+  position: relative;
+}
+#home__menu .carousel__contents .staff-list .owl-nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: #646464;
+  color: #646464;
+  border-radius: 6px;
+  background-color: transparent;
+  width: 40px !important;
+  height: 40px !important;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+}
+#home__menu .carousel__contents .staff-list .owl-nav button:hover {
+  color: black;
+  border-color: #bb2339;
+}
+#home__menu .carousel__contents .staff-list .owl-nav button:first-child {
+  top: -70px;
+  right: 60px;
+}
+#home__menu .carousel__contents .staff-list .owl-nav button:last-child {
+  top: -70px;
+  right: 0px;
+}
 #home__menu .carousel__contents .owl-carousel .single-staff-item {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+  border-top: 1px solid transparent;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
 }
+#home__menu .carousel__contents .owl-carousel .single-staff-item:hover {
+  border-bottom: 3px solid #bb2339;
+  border-top: 1px solid #bb2339;
+}
 #home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+#home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 #home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta img {
   height: 20px;
   background-color: transparent;
+  margin-bottom: 20px;
+}
+#home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta h5 {
+  color: #bb2339;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#home__tab_menu {
+  background-color: white;
+  padding-top: 500px;
+  padding-bottom: 2000px;
 }
 
 /*# sourceMappingURL=main.css.map */

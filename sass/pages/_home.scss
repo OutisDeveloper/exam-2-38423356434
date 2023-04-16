@@ -4,6 +4,8 @@
 $primary-bgcolor: #bb2339;
 $white: white;
 $sec2bg: #f8f8f8;
+$carouselBtn: #646464;
+$black: black;
 #body__index {
   font-family: "Cera Round Pro", sans-serif;
 }
@@ -93,11 +95,19 @@ $sec2bg: #f8f8f8;
   padding-bottom: 120px;
   background-color: $primary-bgcolor;
 }
-
 #home__menu {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  .container-xxl {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   background-color: $sec2bg;
+  #sec-2-last {
+    width: 93px;
+    position: absolute;
+    right: 50px;
+    bottom: -46.5px;
+  }
   .carousel__caption {
     h3 {
       color: $primary-bgcolor;
@@ -107,17 +117,65 @@ $sec2bg: #f8f8f8;
     }
   }
   .carousel__contents {
+    position: relative;
+    .staff-list .owl-nav button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      border-color: $carouselBtn;
+      color: $carouselBtn;
+      border-radius: 6px;
+      background-color: transparent;
+      width: 40px !important;
+      height: 40px !important;
+      margin-left: 10px;
+      transition: 0.3s ease-in-out;
+      position: absolute;
+      &:hover {
+        color: $black;
+        border-color: $primary-bgcolor;
+      }
+    }
+    .staff-list .owl-nav button:first-child {
+      top: -70px;
+      right: 60px;
+    }
+    .staff-list .owl-nav button:last-child {
+      top: -70px;
+      right: 0px;
+    }
     .owl-carousel {
       .single-staff-item {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        border-bottom: 3px solid transparent;
+        border-top: 1px solid transparent;
+        &:hover {
+          border-bottom: 3px solid $primary-bgcolor;
+          border-top: 1px solid $primary-bgcolor;
+        }
         border-radius: 14px;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: $white;
         .staff-meta {
+          p {
+            margin-top: 10px;
+            margin-bottom: 20px;
+          }
           img {
             height: 20px;
             background-color: transparent;
+            margin-bottom: 20px;
+          }
+          h5 {
+            color: $primary-bgcolor;
+            font-weight: 700;
+            font-size: 24px;
           }
           display: flex;
           flex-direction: column;
@@ -126,4 +184,9 @@ $sec2bg: #f8f8f8;
       }
     }
   }
+}
+#home__tab_menu {
+  background-color: $white;
+  padding-top: 500px;
+  padding-bottom: 2000px;
 }
