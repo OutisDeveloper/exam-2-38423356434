@@ -1,3 +1,33 @@
+@import url("https://fonts.cdnfonts.com/css/cera-round-pro");
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1114px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 850px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 570px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (max-width: 430px) {
+  html {
+    font-size: 4px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -190,9 +220,36 @@ li {
   padding-bottom: 16px;
 }
 
-main {
+#body__index {
+  font-family: "Cera Round Pro", sans-serif;
+}
+
+#home_page__home {
+  padding-top: 180px;
   padding-bottom: 2000px;
-  background-color: black;
+  background-color: #bb2339;
+}
+#home_page__home .container-xxl .row {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+#home_page__home .container-xxl .row .home_page__left p {
+  font-weight: 700;
+  font-size: 1.43rem;
+  line-height: 130%;
+  color: white;
+}
+#home_page__home .container-xxl .row .home_page__left h1 {
+  font-weight: 700;
+  font-size: 5.625rem;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#home_page__home .container-xxl .row .home_page__right img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

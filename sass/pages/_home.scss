@@ -1,0 +1,42 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+@import url("https://fonts.cdnfonts.com/css/cera-round-pro");
+$primary-bgcolor: #bb2339;
+$white: white;
+#body__index {
+  font-family: "Cera Round Pro", sans-serif;
+}
+#home_page__home {
+  padding-top: 180px;
+  padding-bottom: 2000px;
+  background-color: $primary-bgcolor;
+  .container-xxl {
+    .row {
+      display: flex !important;
+      justify-content: space-between !important;
+      .home_page__left {
+        p {
+          font-weight: 700;
+          font-size: 1.43rem;
+          line-height: 130%;
+          color: $white;
+        }
+        h1 {
+          font-weight: 700;
+          font-size: 5.625rem;
+          line-height: 130%;
+          letter-spacing: 0.04em;
+          color: $white;
+          margin-top: 25px;
+          margin-bottom: 20px;
+        }
+      }
+      .home_page__right {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
