@@ -34,6 +34,21 @@ $white: white;
           opacity: 0.7;
           color: $white;
         }
+        .explore__more {
+          display: block;
+          margin-top: 32px;
+          border-radius: 30px;
+          padding: 10px 30px;
+          background-color: transparent;
+          border: 1px solid $white;
+          color: $white;
+          transition: 0.3s ease-in-out;
+          &:hover {
+            background-color: $white;
+            color: $primary-bgcolor;
+          }
+
+        }
       }
       .home_page__right {
         img {
@@ -76,6 +91,6 @@ $white: white;
     }
   }
   padding-top: 180px;
-  padding-bottom: 200px;
+  padding-bottom: 120px;
   background-color: $primary-bgcolor;
 }
