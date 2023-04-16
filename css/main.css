@@ -383,6 +383,10 @@ li {
   #home__menu .carousel__caption h3 {
     font-size: 32px;
   }
+  #home__menu .container-xxl {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
 }
 @media (max-width: 500px) {
   #home__menu .single-staff-item {

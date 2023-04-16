@@ -210,6 +210,10 @@ $black: black;
         font-size: 32px;
       }
     }
+    & .container-xxl {
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+    }
   }
   @media (max-width: 500px) {
     .single-staff-item {
