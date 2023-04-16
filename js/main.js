@@ -1,3 +1,4 @@
+// title-animation //
 function recursiveAnimateTitle(string) {
   let firstLetter = string[0];
   let title = document.querySelector("title");
@@ -17,7 +18,9 @@ animateTitle("OutisDeveloper | eaTurksih");
 window.addEventListener("scroll", function () {
   shrink();
 });
+// title-animation //
 
+// navbar-shrink //
 let div = document.getElementById("navbar__shrink");
 function shrink() {
   if (scrollY > 100) {
@@ -26,3 +29,10 @@ function shrink() {
     div.classList.remove("navbar-shrink");
   }
 }
+// navbar-shrink //
+
+// loading
+const loading = document.getElementById("loading");
+setTimeout(() => {
+  loading.classList.add("loading-none");
+}, 1500);
