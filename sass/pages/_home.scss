@@ -96,12 +96,12 @@ $black: black;
   background-color: $primary-bgcolor;
 }
 #home__menu {
+  background-color: $sec2bg;
   .container-xxl {
     position: relative;
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  background-color: $sec2bg;
   #sec-2-last {
     width: 93px;
     position: absolute;
@@ -165,9 +165,9 @@ $black: black;
         .staff-meta {
           p {
             margin-top: 10px;
-            margin-bottom: 20px;
           }
           img {
+            margin-top: 20px;
             height: 20px;
             background-color: transparent;
             margin-bottom: 20px;
@@ -184,7 +184,63 @@ $black: black;
       }
     }
   }
+  @media (max-width: 850px) {
+    .single-staff-item {
+      padding: 0 !important;
+      padding: 10px !important;
+      .staff-meta {
+        p {
+          font-size: 12px;
+        }
+        img {
+          height: 15px !important;
+        }
+        h5 {
+          font-size: 24px;
+        }
+      }
+    }
+    .single-staff-item * {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    & .carousel__caption {
+      h3 {
+        font-size: 32px;
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .single-staff-item {
+      padding: 0 !important;
+      padding: 10px !important;
+      .staff-meta {
+        p {
+          font-size: 5px;
+          width: 100% !important;
+        }
+        img {
+          height: 10px !important;
+        }
+        h5 {
+          font-size: 16px !important;
+        }
+      }
+    }
+    .single-staff-item * {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    & .carousel__caption {
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
 }
+
 #home__tab_menu {
   background-color: $white;
   padding-top: 500px;
