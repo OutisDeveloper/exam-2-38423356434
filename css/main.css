@@ -79,7 +79,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 1000000;
   transition: 2s;
 }
 
@@ -129,6 +129,7 @@ li {
   margin-bottom: 100px;
   transition: 0.4s ease-in-out;
   background-color: #bb2339;
+  z-index: 10000;
 }
 .nav__b .navbar {
   background-color: transparent;
@@ -214,6 +215,7 @@ li {
   padding-bottom: 0px;
   margin-bottom: 80px;
   height: 80px;
+  z-index: 10000;
 }
 .navbar-shrink .navbar {
   padding-top: 16px;
@@ -237,6 +239,9 @@ li {
 #home_page__home .container-xxl .row {
   display: flex !important;
   justify-content: space-between !important;
+}
+#home_page__home .container-xxl .row .home_page__left {
+  padding-left: 24px;
 }
 #home_page__home .container-xxl .row .home_page__left p {
   font-weight: 700;
