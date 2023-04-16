@@ -84,5 +84,18 @@ header .for-bg nav .container-fluid .collapse .nav-item #nav-btn:hover {
   background-color: white;
   color: #bb2339;
 }
+@media (max-width: 1000px) {
+  header .for-bg .toogle-list-custom {
+    width: 100%;
+    justify-content: center !important;
+  }
+  header .for-bg .toogle-list-custom ul {
+    width: 100% !important;
+  }
+  header .for-bg .toogle-list-custom ul li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

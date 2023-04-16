@@ -50,5 +50,18 @@ header {
         }
       }
     }
+    @media  (max-width: 1000px) {
+      .toogle-list-custom {
+        width: 100%;
+        justify-content: center !important;
+        ul {
+          width: 100% !important;
+          li {
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+    }
   }
 }
