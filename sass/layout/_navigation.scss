@@ -1,37 +1,113 @@
-@use "../abstracts/variables";
-@use "../abstracts/mixins";
-// colors
-$bgcolor-navbar: #bb2339;
-
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
 #body-index {
-  background-color: $bgcolor-navbar;
-  padding-bottom: 500px;
+}
+.nav__b {
+  height: 100px;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 0px;
+  background-color: $primary-bgcolor;
+  width: 100%;
+  transition: 0.4s ease-in-out;
   .navbar {
-    background-color: #bb2339 !important;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    padding-top: 26px !important;
+    padding-bottom: 26px !important;
+    .nav__links {
+      .nav-item {
+        a {
+          transition: 0.3s ease-in-out;
+          &:hover {
+            box-shadow: 0px 1px $white;
+          }
+        }
+      }
+    }
+    .nav-item:last-child {
+      a {
+        border: 1px solid $white !important;
+        padding: 10px 40px;
+        border-radius: 30px;
+        &:hover {
+          background-color: $white;
+          color: $primary-bgcolor !important;
+        }
+      }
+    }
+    .cust-toogle {
+      display: none;
+      border: none;
+      color: $white;
+    }
+    .offcanvas {
+      .offcanvas-header {
+        background-color: $primary-bgcolor;
+      }
+      .offcanvas-body {
+        background-color: $primary-bgcolor;
+        ul {
+          width: 100%;
+          padding-left: 15px;
+          li {
+            width: 100%;
+            border-left: 2px solid white;
+            padding-left: 20px;
+            transition: 0.3s ease-in-out;
+            a {
+              width: 100%;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              font-weight: 600;
+            }
+            &:hover {
+              a {
+                color: $primary-bgcolor !important;
+              }
+              background-color: $white;
+            }
+          }
+          li:last-child {
+            border-left: none;
+            width: 150px;
+            padding-left: 0px;
+            a {
+              display: flex;
+              justify-content: center;
+            }
+            &:hover {
+              background-color: transparent;
+              a {
+                background-color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 1000px) {
+      .cust-toogle {
+        display: block;
+      }
+      .nav__links {
+        display: none;
+      }
+    }
   }
 }
-.navbar {
-  .cust-toogle {
-    display: none;
-    border: none;
-    color: white;
+.navbar-shrink {
+  box-shadow: 2px 2px 10px $white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 80px;
+  height: 80px;
+  .navbar {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
   }
-  padding-top: 26px !important;
-  padding-bottom: 26px !important;
-  .offcanvas {
-    .offcanvas-header {
-      background-color: #bb2339;
-    }
-    .offcanvas-body {
-      background-color: #bb2339;
-    }
-  } 
-  @media (max-width: 1000px) {
-    .cust-toogle {
-      display: block ;
-    }
-    .nav__links {
-      display: none;
-    }
-  }
+}
+main {
+  padding-bottom: 2000px;
+  background-color: $primary-bgcolor;
 }

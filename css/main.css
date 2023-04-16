@@ -39,36 +39,108 @@ li {
   list-style-type: none;
 }
 
-#body-index {
+.nav__b {
+  height: 100px;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 0px;
   background-color: #bb2339;
-  padding-bottom: 500px;
+  width: 100%;
+  transition: 0.4s ease-in-out;
 }
-#body-index .navbar {
-  background-color: #bb2339 !important;
-}
-
-.navbar {
+.nav__b .navbar {
+  background-color: transparent;
+  transition: 0.4s ease-in-out;
   padding-top: 26px !important;
   padding-bottom: 26px !important;
 }
-.navbar .cust-toogle {
+.nav__b .navbar .nav__links .nav-item a {
+  transition: 0.3s ease-in-out;
+}
+.nav__b .navbar .nav__links .nav-item a:hover {
+  box-shadow: 0px 1px white;
+}
+.nav__b .navbar .nav-item:last-child a {
+  border: 1px solid white !important;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+.nav__b .navbar .nav-item:last-child a:hover {
+  background-color: white;
+  color: #bb2339 !important;
+}
+.nav__b .navbar .cust-toogle {
   display: none;
   border: none;
   color: white;
 }
-.navbar .offcanvas .offcanvas-header {
+.nav__b .navbar .offcanvas .offcanvas-header {
   background-color: #bb2339;
 }
-.navbar .offcanvas .offcanvas-body {
+.nav__b .navbar .offcanvas .offcanvas-body {
   background-color: #bb2339;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul {
+  width: 100%;
+  padding-left: 15px;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li {
+  width: 100%;
+  border-left: 2px solid white;
+  padding-left: 20px;
+  transition: 0.3s ease-in-out;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li a {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:hover {
+  background-color: white;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:hover a {
+  color: #bb2339 !important;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:last-child {
+  border-left: none;
+  width: 150px;
+  padding-left: 0px;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:last-child a {
+  display: flex;
+  justify-content: center;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:last-child:hover {
+  background-color: transparent;
+}
+.nav__b .navbar .offcanvas .offcanvas-body ul li:last-child:hover a {
+  background-color: white;
 }
 @media (max-width: 1000px) {
-  .navbar .cust-toogle {
+  .nav__b .navbar .cust-toogle {
     display: block;
   }
-  .navbar .nav__links {
+  .nav__b .navbar .nav__links {
     display: none;
   }
+}
+
+.navbar-shrink {
+  box-shadow: 2px 2px 10px white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 80px;
+  height: 80px;
+}
+.navbar-shrink .navbar {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+main {
+  padding-bottom: 2000px;
+  background-color: #bb2339;
 }
 
 /*# sourceMappingURL=main.css.map */

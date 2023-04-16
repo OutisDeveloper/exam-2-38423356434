@@ -8,10 +8,21 @@ function recursiveAnimateTitle(string) {
     }, 100);
   }
 }
-
 function animateTitle(string) {
   document.querySelector("title").innerHTML = "";
   recursiveAnimateTitle(string);
 }
-
 animateTitle("OutisDeveloper | eaTurksih");
+
+window.addEventListener("scroll", function () {
+  shrink();
+});
+
+let div = document.getElementById("navbar__shrink");
+function shrink() {
+  if (scrollY > 100) {
+    div.classList.add("navbar-shrink");
+  } else {
+    div.classList.remove("navbar-shrink");
+  }
+}
