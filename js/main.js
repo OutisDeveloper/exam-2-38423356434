@@ -13,7 +13,7 @@ function animateTitle(string) {
   document.querySelector("title").innerHTML = "";
   recursiveAnimateTitle(string);
 }
-animateTitle("OutisDeveloper | eaTurksih");
+animateTitle("OutisDeveloper | eaTurkish");
 
 window.addEventListener("scroll", function () {
   shrink();
