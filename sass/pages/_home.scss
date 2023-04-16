@@ -21,7 +21,7 @@ $white: white;
       .home_page__left {
         p {
           font-weight: 700;
-          font-size: 1.43rem;
+          font-size: 1.4rem;
           line-height: 130%;
           color: $white;
         }
@@ -33,6 +33,11 @@ $white: white;
           color: $white;
           margin-top: 25px;
           margin-bottom: 20px;
+        }
+        span {
+          font-size: 1.2rem;
+          opacity: 0.7;
+          color: $white;
         }
         @media (max-width: 850px) {
           padding-left: 5rem;

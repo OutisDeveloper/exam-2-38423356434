@@ -240,7 +240,7 @@ li {
 }
 #home_page__home .container-xxl .row .home_page__left p {
   font-weight: 700;
-  font-size: 1.43rem;
+  font-size: 1.4rem;
   line-height: 130%;
   color: white;
 }
@@ -252,6 +252,11 @@ li {
   color: white;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+#home_page__home .container-xxl .row .home_page__left span {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  color: white;
 }
 @media (max-width: 850px) {
   #home_page__home .container-xxl .row .home_page__left {
