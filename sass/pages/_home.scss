@@ -6,6 +6,8 @@ $white: white;
 $sec2bg: #f8f8f8;
 $carouselBtn: #646464;
 $black: black;
+$tab-card-border: #e9e9e9;
+
 #body__index {
   font-family: "Cera Round Pro", sans-serif;
 }
@@ -245,7 +247,90 @@ $black: black;
   }
 }
 #home__tab_menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: $white;
-  padding-top: 500px;
-  padding-bottom: 2000px;
+  .container-xxl {
+    .bigHed {
+      font-weight: 500;
+      font-size: 48px;
+      color: $primary-bgcolor;
+      margin-bottom: 50px;
+      padding-left: 30px;
+    }
+    .ap-tab-list {
+      display: flex;
+      justify-content: flex-start;
+      a {
+        margin-right: 20px;
+        &:hover {
+          background-color: $primary-bgcolor;
+          color: $white;
+        }
+        &:active {
+          outline: 5px solid $primary-bgcolor !important;
+        }
+        transition: 0.3s ease-in-out;
+        padding: 10px 30px;
+        color: $black;
+        opacity: 0.85;
+        border-radius: 100px;
+        border: 1px solid $primary-bgcolor;
+      }
+    }
+    .roww {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      .tab_card {
+        padding: 10px 10px 20px;
+        border: 1px solid $tab-card-border;
+        border-radius: 14px;
+        img {
+          width: 100%;
+        }
+        p {
+          margin-top: 10px;
+          margin-bottom: 30px;
+          color: $black;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 150%;
+          opacity: 0.8;
+        }
+        h6 {
+          font-weight: 700;
+          font-size: 24px;
+          color: $primary-bgcolor;
+        }
+      }
+    }
+  }
+  @media (max-width: 1000px) {
+    .container-xxl {
+      .roww {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    .container-xxl {
+      .roww {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    .container-xxl {
+      .roww {
+        grid-template-columns: repeat(1, 1fr);
+        .tab_card {
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
 }
