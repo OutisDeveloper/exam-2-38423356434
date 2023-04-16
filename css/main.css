@@ -234,10 +234,10 @@ li {
   margin-top: 32px;
   border-radius: 30px;
   padding: 10px 30px;
-  background-color: transparent;
   border: 1px solid white;
   color: white;
   transition: 0.3s ease-in-out;
+  background-color: transparent;
 }
 #home_page__home .container-xxl .row .home_page__left .explore__more:hover {
   background-color: white;
@@ -274,6 +274,34 @@ li {
   #home_page__home .container-xxl .row .home_page__left h1 {
     font-size: 3.1rem;
   }
+}
+
+#home__menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f8f8f8;
+}
+#home__menu .carousel__caption h3 {
+  color: #bb2339;
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+#home__menu .carousel__contents .owl-carousel .single-staff-item {
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+#home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home__menu .carousel__contents .owl-carousel .single-staff-item .staff-meta img {
+  height: 20px;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

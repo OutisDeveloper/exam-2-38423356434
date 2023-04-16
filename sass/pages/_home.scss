@@ -1,9 +1,9 @@
 @use "../abstracts/variables";
 @use "../abstracts/mixins";
-
 @import url("https://fonts.cdnfonts.com/css/cera-round-pro");
 $primary-bgcolor: #bb2339;
 $white: white;
+$sec2bg: #f8f8f8;
 #body__index {
   font-family: "Cera Round Pro", sans-serif;
 }
@@ -39,15 +39,14 @@ $white: white;
           margin-top: 32px;
           border-radius: 30px;
           padding: 10px 30px;
-          background-color: transparent;
           border: 1px solid $white;
           color: $white;
           transition: 0.3s ease-in-out;
+          background-color: transparent;
           &:hover {
             background-color: $white;
             color: $primary-bgcolor;
           }
-
         }
       }
       .home_page__right {
@@ -93,4 +92,38 @@ $white: white;
   padding-top: 180px;
   padding-bottom: 120px;
   background-color: $primary-bgcolor;
+}
+
+#home__menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: $sec2bg;
+  .carousel__caption {
+    h3 {
+      color: $primary-bgcolor;
+      font-weight: 500;
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+  }
+  .carousel__contents {
+    .owl-carousel {
+      .single-staff-item {
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $white;
+        .staff-meta {
+          img {
+            height: 20px;
+            background-color: transparent;
+          }
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
 }
