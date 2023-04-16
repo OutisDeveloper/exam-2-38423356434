@@ -8,12 +8,6 @@ $white: white;
   font-family: "Cera Round Pro", sans-serif;
 }
 #home_page__home {
-  padding-top: 180px;
-  padding-bottom: 2000px;
-  background-color: $primary-bgcolor;
-  @media (max-width: 850px) {
-    padding-top: 120px;
-  }
   .container-xxl {
     .row {
       display: flex !important;
@@ -40,15 +34,48 @@ $white: white;
           opacity: 0.7;
           color: $white;
         }
-        @media (max-width: 850px) {
-          padding-left: 5rem;
-        }
       }
       .home_page__right {
         img {
           max-width: 100%;
         }
       }
+      @media (max-width: 1106px) {
+        display: flex;
+        flex-direction: column;
+        .home_page__right {
+          padding-top: 40px;
+          img {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+      @media (max-width: 580px) {
+        .home_page__left {
+          h1 {
+            font-size: 4rem;
+          }
+        }
+      }
+      @media (max-width: 420px) {
+        .home_page__left {
+          h1 {
+            font-size: 3.5rem;
+          }
+        }
+      }
+      @media (max-width: 380px) {
+        .home_page__left {
+          h1 {
+            font-size: 3.1rem;
+          }
+        }
+      }
     }
   }
+  padding-top: 180px;
+  padding-bottom: 200px;
+  background-color: $primary-bgcolor;
 }

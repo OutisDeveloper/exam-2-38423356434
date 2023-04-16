@@ -1,33 +1,4 @@
 @import url("https://fonts.cdnfonts.com/css/cera-round-pro");
-html {
-  font-size: 16px;
-}
-
-@media (max-width: 1114px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media (max-width: 850px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (max-width: 700px) {
-  html {
-    font-size: 8px;
-  }
-}
-@media (max-width: 570px) {
-  html {
-    font-size: 6px;
-  }
-}
-@media (max-width: 430px) {
-  html {
-    font-size: 4px;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -228,13 +199,8 @@ li {
 
 #home_page__home {
   padding-top: 180px;
-  padding-bottom: 2000px;
+  padding-bottom: 200px;
   background-color: #bb2339;
-}
-@media (max-width: 850px) {
-  #home_page__home {
-    padding-top: 120px;
-  }
 }
 #home_page__home .container-xxl .row {
   display: flex !important;
@@ -263,13 +229,37 @@ li {
   opacity: 0.7;
   color: white;
 }
-@media (max-width: 850px) {
-  #home_page__home .container-xxl .row .home_page__left {
-    padding-left: 5rem;
-  }
-}
 #home_page__home .container-xxl .row .home_page__right img {
   max-width: 100%;
+}
+@media (max-width: 1106px) {
+  #home_page__home .container-xxl .row {
+    display: flex;
+    flex-direction: column;
+  }
+  #home_page__home .container-xxl .row .home_page__right {
+    padding-top: 40px;
+  }
+  #home_page__home .container-xxl .row .home_page__right img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 580px) {
+  #home_page__home .container-xxl .row .home_page__left h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 420px) {
+  #home_page__home .container-xxl .row .home_page__left h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 380px) {
+  #home_page__home .container-xxl .row .home_page__left h1 {
+    font-size: 3.1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
