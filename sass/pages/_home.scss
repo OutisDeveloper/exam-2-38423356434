@@ -11,6 +11,9 @@ $white: white;
   padding-top: 180px;
   padding-bottom: 2000px;
   background-color: $primary-bgcolor;
+  @media (max-width: 850px) {
+    padding-top: 120px;
+  }
   .container-xxl {
     .row {
       display: flex !important;
@@ -32,7 +35,7 @@ $white: white;
           margin-bottom: 20px;
         }
         @media (max-width: 850px) {
-          padding-left: 4rem;
+          padding-left: 5rem;
         }
       }
       .home_page__right {

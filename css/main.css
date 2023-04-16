@@ -229,6 +229,11 @@ li {
   padding-bottom: 2000px;
   background-color: #bb2339;
 }
+@media (max-width: 850px) {
+  #home_page__home {
+    padding-top: 120px;
+  }
+}
 #home_page__home .container-xxl .row {
   display: flex !important;
   justify-content: space-between !important;
@@ -250,7 +255,7 @@ li {
 }
 @media (max-width: 850px) {
   #home_page__home .container-xxl .row .home_page__left {
-    padding-left: 4rem;
+    padding-left: 5rem;
   }
 }
 #home_page__home .container-xxl .row .home_page__right img {
