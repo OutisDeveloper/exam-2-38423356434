@@ -248,6 +248,11 @@ li {
   margin-top: 25px;
   margin-bottom: 20px;
 }
+@media (max-width: 850px) {
+  #home_page__home .container-xxl .row .home_page__left {
+    padding-left: 4rem;
+  }
+}
 #home_page__home .container-xxl .row .home_page__right img {
   max-width: 100%;
 }
