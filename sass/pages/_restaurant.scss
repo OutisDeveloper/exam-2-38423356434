@@ -80,6 +80,14 @@ $primary-bgcolor: #bb2339;
               .res-car:first-child {
                 margin-right: 2%;
               }
+              @media (max-width: 1000px) {
+                .res-car {
+                  width: 100%;
+                }
+                .res-car:first-child {
+                  margin-bottom: 20px;
+                }
+              }
             }
           }
         }

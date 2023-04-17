@@ -1061,5 +1061,13 @@ li {
 #restaurant__ap_tab .container-xxl .row .col-7 .ap-tab-container .ap-tab-content .row .res-car:first-child {
   margin-right: 2%;
 }
+@media (max-width: 1000px) {
+  #restaurant__ap_tab .container-xxl .row .col-7 .ap-tab-container .ap-tab-content .row .res-car {
+    width: 100%;
+  }
+  #restaurant__ap_tab .container-xxl .row .col-7 .ap-tab-container .ap-tab-content .row .res-car:first-child {
+    margin-bottom: 20px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
