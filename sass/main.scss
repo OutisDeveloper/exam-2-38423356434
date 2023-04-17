@@ -7,9 +7,7 @@
 @use "layout/footer";
 @use "vendors/bootstrap";
 @use "themes/dark-mode";
+
 @use "pages/home";
-@use "pages/about";
-@use "pages/pricing";
-@use "pages/blog-page";
-@use "pages/work";
-@use "pages/contact";
+@use "pages/restaurant";
+
