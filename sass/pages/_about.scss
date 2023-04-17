@@ -1,2 +1,36 @@
-@use '../abstracts/variables';
-@use '../abstracts/mixins';
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+$black: black;
+$white: white;
+$sec2bg: #f8f8f8;
+$carouselBtn: #646464;
+$testimony-bg: #f4f4f4;
+$tab-card-border: #e9e9e9;
+$primary-bgcolor: #bb2339;
+.min-container {
+  max-width: 740px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  h1 {
+    padding-top: 140px;
+    font-size: 48px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: $black;
+    opacity: 0.85;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  p:last-child {
+    margin-bottom: 40px;
+  }
+}

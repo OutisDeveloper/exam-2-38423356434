@@ -1087,6 +1087,34 @@ li {
   }
 }
 
+.min-container {
+  max-width: 740px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.min-container h1 {
+  padding-top: 140px;
+  font-size: 48px;
+  text-align: center;
+}
+.min-container img {
+  width: 100%;
+}
+.min-container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: black;
+  opacity: 0.85;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.min-container p:last-child {
+  margin-bottom: 40px;
+}
+
 #news__main #home__news {
   padding-bottom: 160px;
 }
