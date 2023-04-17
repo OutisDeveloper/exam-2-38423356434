@@ -1,13 +1,14 @@
 @use "../abstracts/variables";
 @use "../abstracts/mixins";
 @import url("https://fonts.cdnfonts.com/css/cera-round-pro");
-$primary-bgcolor: #bb2339;
+
+$black: black;
 $white: white;
 $sec2bg: #f8f8f8;
 $carouselBtn: #646464;
-$black: black;
-$tab-card-border: #e9e9e9;
 $testimony-bg: #f4f4f4;
+$tab-card-border: #e9e9e9;
+$primary-bgcolor: #bb2339;
 
 #body__index {
   font-family: "Cera Round Pro", sans-serif;
@@ -346,4 +347,164 @@ $testimony-bg: #f4f4f4;
 }
 #home__testimony {
   background-color: $testimony-bg;
+  .container-xxl {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    position: relative;
+    #sec-2-last {
+      position: absolute;
+      right: 50px;
+      bottom: -46.5px;
+    }
+    .carousel__caption {
+      .section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          font-weight: 700;
+          font-size: 23px;
+          color: $black;
+        }
+        img {
+          margin: 8px 0px;
+        }
+        h3 {
+          font-weight: 500;
+          font-size: 48px;
+          color: $black;
+          margin-bottom: 60px;
+        }
+      }
+    }
+    .carousel__contents {
+      .single-staff-item {
+        background-color: $white;
+        border-radius: 10px;
+        padding: 30px 0px 30px 20px;
+      }
+      position: relative !important;
+      .staff-meta {
+        p {
+          text-align: left !important;
+        }
+        .car-last {
+          display: flex;
+          span {
+            margin-right: 10px;
+            img {
+              width: 15px;
+              margin-right: 5px;
+            }
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    .car-last {
+      flex-direction: column;
+      span {
+        margin-right: 10px;
+        img {
+          width: 15px;
+          margin-right: 5px;
+        }
+        display: flex;
+      }
+    }
+  }
+  @media (max-width: 850px) {
+    .carousel__contents {
+      .single-staff-item {
+        padding: 0 !important;
+        padding: 10px !important;
+        h2 {
+          font-size: 25px !important;
+        }
+        .text-center {
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+        .staff-meta {
+          h5 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .single-staff-item * {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    & .carousel__caption {
+      h3 {
+        font-size: 32px;
+      }
+    }
+    & .container-xxl {
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+    }
+  }
+  @media (max-width: 760px) {
+    .carousel__contents {
+      .single-staff-item {
+        padding: 0 !important;
+        padding: 10px !important;
+        h2 {
+          font-size: 25px !important;
+        }
+        .text-center {
+          font-size: 9px;
+          margin-bottom: 10px;
+        }
+        .staff-meta {
+          h5 {
+            font-size: 24px;
+          }
+        }
+      }
+      .car-last {
+        flex-direction: column;
+        span {
+          margin-right: 0px !important;
+          font-size: 10px;
+          img {
+            width: 10px !important;
+            margin-right: 0px !important;
+          }
+          display: flex;
+        }
+      }
+    }
+    .single-staff-item * {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    & .carousel__caption {
+      h3 {
+        font-size: 32px;
+      }
+    }
+    & .container-xxl {
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .car-last {
+      span {
+        font-size: 8px !important;
+        img {
+          width: 10px !important;
+          margin-right: 0px !important;
+        }
+        display: flex;
+      }
+    }
+  }
 }
