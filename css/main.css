@@ -1087,4 +1087,41 @@ li {
   }
 }
 
+#news__main #home__news {
+  padding-bottom: 160px;
+}
+#news__main #home__news .news__caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#news__main #home__news .news__caption h1 {
+  font-weight: 500;
+  font-size: 64px;
+  color: black;
+  margin-bottom: 10px;
+}
+#news__main #home__news .news__caption img {
+  margin-bottom: 60px;
+}
+#news__main #home__news .new__btn {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#news__main #home__news .new__btn button {
+  background-color: transparent;
+  display: inline-block;
+  padding: 10px 32px;
+  border: 1px solid #bb2339;
+  border-radius: 100px;
+  color: #bb2339;
+  transition: 0.3s ease-in-out;
+}
+#news__main #home__news .new__btn button:hover {
+  background-color: #bb2339;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
