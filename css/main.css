@@ -1032,6 +1032,23 @@ li {
   background-color: white;
   color: #bb2339;
 }
+@media (max-width: 850px) {
+  #restaurant__ap_tab .container-xxl .row .col-4 .ap-tab ul {
+    padding: 15px;
+  }
+  #restaurant__ap_tab .container-xxl .row .col-4 .ap-tab ul p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 100%;
+  }
+  #restaurant__ap_tab .container-xxl .row .col-4 .ap-tab ul li {
+    margin-bottom: 10px;
+  }
+  #restaurant__ap_tab .container-xxl .row .col-4 .ap-tab ul a {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
 #restaurant__ap_tab .container-xxl .row .col-7 .ap-tab-container .ap-tab-content .row {
   margin-bottom: 20px;
 }
