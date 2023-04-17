@@ -698,3 +698,23 @@ $modal_width: calc(10% + 10px);
     }
   }
 }
+
+#backtop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: $primary-bgcolor;
+  border: 1px solid $white;
+  border-radius: 50%;
+  z-index: 10;
+  right: 1rem;
+  bottom: 2rem;
+  a {
+    color :$white;
+    font-size: 16px;
+  }
+}

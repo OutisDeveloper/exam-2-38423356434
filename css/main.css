@@ -973,4 +973,24 @@ li {
   }
 }
 
+#backtop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #bb2339;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 10;
+  right: 1rem;
+  bottom: 2rem;
+}
+#backtop a {
+  color: white;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=main.css.map */

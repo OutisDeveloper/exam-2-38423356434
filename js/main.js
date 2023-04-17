@@ -54,3 +54,22 @@ $(document).ready(function () {
 });
 
 // owl-carousel
+
+// backtop
+window.addEventListener("scroll", function () {
+  toggleBacktop();
+});
+
+let backtop = document.getElementById("backtop");
+
+function toggleBacktop() {
+  if (
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    backtop.style.bottom = "10px";
+  } else {
+    backtop.style.bottom = "-100px";
+  }
+}
+// backtop
