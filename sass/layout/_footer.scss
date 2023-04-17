@@ -120,9 +120,6 @@ $primary-bgcolor: #bb2339;
       }
     }
   }
-
-
-
   @media (max-width: 750px) {
     .buqa {
       width: 70% !important;
@@ -137,21 +134,16 @@ $primary-bgcolor: #bb2339;
         margin-left: auto !important;
         margin-right: auto !important;
         font-size: 32px !important;
-        
       }
     }
-  form {
-    flex-direction: column;
-    input {
-      margin-right: 0px !important;
-      margin-bottom: 20px;
+    form {
+      flex-direction: column;
+      input {
+        margin-right: 0px !important;
+        margin-bottom: 20px;
+      }
     }
   }
-  }
-
-
-
-  
   .foot {
     text-align: center;
     color: $white;
