@@ -1124,4 +1124,115 @@ li {
   color: white;
 }
 
+#contact__main {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+#contact__main #contact__form .container-xxl .contact__right_caption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+#contact__main #contact__form .container-xxl .contact__right_caption h1 {
+  font-weight: 500;
+  font-size: 64px;
+  color: black;
+}
+#contact__main #contact__form .container-xxl .formmm {
+  display: flex;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__left {
+  margin-right: 3%;
+  width: 29%;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__left .contact__left_card {
+  margin-bottom: 20px;
+  padding: 30px 0px 25px 20px;
+  border-radius: 14px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__left .contact__left_card img {
+  padding: 20px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right {
+  padding: 40px;
+  border: 1px solid #dbdbdb;
+  border-radius: 14px;
+  width: 68%;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .contact__right_caption {
+  display: flex;
+  flex-direction: column;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .contact__right_caption h4 {
+  line-height: 100%;
+  font-weight: 600;
+  font-size: 38px;
+  color: black;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .contact__right_caption p {
+  font-size: 16px;
+  color: black;
+  opacity: 0.8;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .dontac__main_form {
+  width: 100%;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .dontac__main_form .row-f1 input {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  width: 100%;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .dontac__main_form .row-f2 {
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+#contact__main #contact__form .container-xxl .formmm .contact__right .dontac__main_form .lll-btn {
+  display: inline-block;
+  color: white;
+  padding: 10px 32px;
+  background-color: #bb2339;
+  border-radius: 100px;
+  border: 1px solid #bb2339;
+}
+@media (max-width: 1200px) {
+  #contact__main #contact__form .container-xxl .formmm {
+    flex-direction: column;
+  }
+  #contact__main #contact__form .container-xxl .formmm .contact__left,
+  #contact__main #contact__form .container-xxl .formmm .contact__right {
+    width: 100%;
+  }
+}
+
+#contact__map {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#contact__map h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#contact__map iframe {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
