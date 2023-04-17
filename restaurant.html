@@ -1,3 +1,1083 @@
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nesciunt
-corrupti nobis non ducimus fugit assumenda, porro velit quaerat error ab vitae
-quibusdam a earum ratione fuga dolore deserunt vel.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Owlcarousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- Owlcarousel -->
+  </head>
+  <body id="body__index">
+    <!-- loading -->
+    <div id="loading">
+      <div class="lds-hourglass"></div>
+    </div>
+    <!-- loading -->
+
+    <!-- backtop -->
+    <div class="container-xxl" id="backtop">
+      <a href="#"> Top </a>
+    </div>
+    <!-- backtop -->
+
+    <!-- navabr-general -->
+    <header>
+      <div id="navbar__shrink" class="nav__b">
+        <nav class="container-xxl navbar fixed-top">
+          <div class="container-fluid">
+            <img
+              src="./assets/images/first-page/sec-1-logo.svg"
+              alt="eaTurkish logo"
+            />
+
+            <button
+              class="cust-toogle navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                viewBox="0 96 960 960"
+                width="32"
+                fill="white"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                />
+              </svg>
+            </button>
+            <div class="nav__links">
+              <ul class="d-flex align-items-center gap-5">
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="./restaurant.html"
+                    >Restaurant</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="./news.html"
+                    >News</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="./about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="./contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-light nav-link active"
+                    aria-current="page"
+                    href="#"
+                    >Log In</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="./assets/images/first-page/sec-1-logo.svg" alt="" />
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="d-flex flex-column align-items-start gap-4">
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="./restaurant.html"
+                      >Restaurant</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="./news.html"
+                      >News</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="./about.html"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="./contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="text-light nav-link active"
+                      aria-current="page"
+                      href="#"
+                      >Log In</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- navabr-general -->
+
+    <!-- main-restaurant -->
+    <main id="restaurant__main">
+      <!-- restaurant__ap_tab -->
+      <section id="restaurant__ap_tab">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col-4">
+              <div class="ap-tab">
+                <ul class="ap-tab-list">
+                  <p>Our Regular Menu Pack</p>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">ALL</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">KEBABS</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">PIDES</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">BURGERS</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">OTHER DISHES</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">SIDES</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">DRINKS</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">DESSERTS</a>
+                  </li>
+                  <li class="ap-tab-item">
+                    <a class="ap-tab-link" href="#">MEAL DEALS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="ap-tab-container">
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ap-tab-content">
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                    <div class="res-car col-3">
+                      <img
+                        src="./assets/images/second-page/sec-2-tap-img-min.png"
+                        alt=""
+                      />
+                      <p>
+                        Barbecue Shish kebab Shashlik <br />
+                        Skewer
+                      </p>
+                      <h3>$12.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- restaurant__ap_tab -->
+
+      <!-- home-galery -->
+      <section id="home__galery">
+        <div class="container-xxl">
+          <div class="home__galery_text">
+            <h6>Instagram</h6>
+            <img src="./assets/images/first-page/sec-5-top.svg" alt="" />
+            <h3>Photo Gallery</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+              mattis ipsum turpis elit elit scelerisque egestas mu.
+            </p>
+            <a href="#home__modal_video"> View More </a>
+          </div>
+          <div class="home__galery_box owl-carousel">
+            <div id="f1_container">
+              <div id="f1_card" class="shadow">
+                <div class="front face">
+                  <img
+                    src="./assets/images/first-page/sec-7-1-min.png"
+                    alt="test"
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="f1_container">
+              <div id="f1_card" class="shadow">
+                <div class="front face">
+                  <img
+                    src="./assets/images/first-page/sec-7-2-min.png"
+                    alt="test"
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="f1_container">
+              <div id="f1_card" class="shadow">
+                <div class="front face">
+                  <img
+                    src="./assets/images/first-page/sec-7-3-min.png"
+                    alt="test"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- home-galery -->
+    </main>
+    <!-- main-restaurant -->
+
+    <!-- footer-general -->
+    <footer id="general__footer">
+      <div class="container-xxl">
+        <div class="container-xl parent">
+          <div class="footer__ship">
+            <p>Newsletter</p>
+            <h1>Subscribe to Our Newsletter</h1>
+            <h4>And never miss latest Updates!</h4>
+            <form action="./index.html">
+              <input type="email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__main row">
+          <div class="footer__column col-xl-4 col-md-12">
+            <h3>Contact Us</h3>
+            <p>9 W 53rd St, London, NY 10019, UK</p>
+            <p>
+              +1 212-344-1230 <br />
+              +1 212-555-1230
+            </p>
+          </div>
+          <div class="footer__column col-xl-4 col-md-12">
+            <img
+              class="buqa"
+              src="./assets/images/first-page/sec-1-logo.svg"
+              alt=""
+            />
+            <h5>
+              "The best way to find yourself is to lose yourself in the service
+              of others.”
+            </h5>
+            <img src="./assets/images/first-page/footer_social.svg" alt="" />
+          </div>
+          <div class="footer__column col-xl-4 col-md-12">
+            <h3>Working Hours</h3>
+            <p>
+              Monday-Friday: <br />
+              08:00 am -12:00 am
+            </p>
+            <p>
+              Saturday-Sunday: <br />
+              07:00am -11:00 pm
+            </p>
+          </div>
+        </div>
+
+        <p class="foot">
+          2023 Behruz Jurayev @OutisDeveloper. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- footer-general -->
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+
+    <!-- carousel -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- carousel -->
+
+    <!-- ap-tab -->
+    <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
+    <!-- ap-tab -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
