@@ -745,7 +745,7 @@ li {
   font-weight: 600;
   position: absolute;
   left: calc(50% - (10% + 10px) / 2);
-  top: calc(50% - 40px);
+  top: calc(50% - (10% + 10px) / 2);
   width: calc(10% + 10px);
   height: calc(10% + 10px);
   border-radius: 80%;

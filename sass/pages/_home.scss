@@ -615,7 +615,7 @@ $modal_width: calc(10% + 10px);
       font-weight: 600;
       position: absolute;
       left: calc(50% - calc($modal_width / 2));
-      top: calc(50% - 40px);
+      top: calc(50% - calc($modal_width / 2));
       width: $modal_width;
       height: $modal_width;
       border-radius: 80%;
